@@ -7,47 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
 # Dependency directories
 node_modules/
 
-# Build outputs
-dist/
-dist-ssr/
-build/
-
-# Local environment files
-*.local
+# Environment variables
 .env*
 !.env.example
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea/
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# IDE
-*.swp
-*.swo
-
-# OS
-Thumbs.db
-
-# Testing
-coverage/
-*.lcov
-
-# Typescript
-*.tsbuildinfo
-
-# Vite
-.vite/
-.env*.local
 
 # Optional npm cache directory
 .npm
@@ -63,3 +34,28 @@ coverage/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+
+# Database files (if using local database)
+*.db
+*.sqlite
